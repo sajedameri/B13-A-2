@@ -219,6 +219,34 @@ align-items: center;
   margin-top: 200px;
   
 }
+/* featur style */
+.Featured-Episodes{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card-section{
+  display: flex;
+  gap: 20px;
+}
+
+.featured-tittle{
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+  padding: 50px;
+}
+.card{
+  width: 380px;
+  margin: 20px;
+  background-color:  rgba(53, 17, 101, 0.4);
+  border-radius: 25px;
+  
+}
+.featured-icon{
+  display: flex;
+  gap: 5px;
+  padding: 10px 0;
+}
 
 @media screen and (max-width:576px){
   .navber{
@@ -267,17 +295,20 @@ align-items: center;
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 25px;
   grid-row: auto;
+  padding: 20px;
 }
 .box-2{
 background-color: rgba(53, 17, 101, 0.4);
 grid-column: auto;
 border-radius: 25px;
+padding: 20px;
 
 }
 .box-3{
  background-color: rgba(53, 17, 101, 0.4);
 grid-column: auto;
 border-radius: 25px;
+padding: 20px;
 
 
 }
@@ -285,10 +316,18 @@ border-radius: 25px;
   background-color: rgba(53, 17, 101, 0.4);
 grid-column:auto;
 border-radius: 25px;
+padding: 20px;
 }
 .box-5{
 background-color: rgba(53, 17, 101, 0.4);
 grid-column: 3/4;
 border-radius: 25px;
+padding: 20px;
 }
+.card-section{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
 }
